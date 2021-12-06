@@ -1,0 +1,38 @@
+Request method:	GET
+Request URI:	https://simplekart.postman.com/orders/%3A1657
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Mon, 22 Nov 2021 20:50:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-srv-trace: v=1;t=8a3f991da082a768
+referrer-policy: no-referrer
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'none'; font-src 'none'; img-src 'none'; script-src 'none'; base-uri 'self'; style-src 'none'
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+ETag: W/"96-S/5iQ2y1qqIInh5BwoPc+chvDJU"
+Content-Encoding: gzip
+
+{
+    "error": {
+        "name": "mockRequestNotFoundError",
+        "message": "Double check your method and the request path and try again.",
+        "header": "No matching requests"
+    }
+}

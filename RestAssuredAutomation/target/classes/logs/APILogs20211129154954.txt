@@ -1,0 +1,39 @@
+Request method:	GET
+Request URI:	https://simplekart.postman.com/items/1657
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 29 Nov 2021 15:49:59 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-srv-trace: v=1;t=bb1ae056214709e7
+referrer-policy: no-referrer
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'none'; font-src 'none'; img-src 'none'; script-src 'none'; base-uri 'self'; style-src 'none'
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+X-cached-value: true
+X-cache-created-at: 2021-11-23T06:15:26.354Z
+ETag: W/"2cf-TSwtUUrc9TCSBtcZxcuAMd87Kg8"
+Content-Encoding: gzip
+
+{
+    "itemId": 1657,
+    "name": "Smart WiFi Router",
+    "price": 2096,
+    "description": "Wifi router/wireless router. One of routers for wireless internet, wireless routers for home. Dual band router and gigabit router. Ideal as internet router also gaming router. Long range coverage with high speed. Compatible with all 802.11ac devices and below. 5ghz router/5g router Frequency Range: 2.4GHz and 5GHz; Interface Available: 4 x 10/100/1000Mbps LAN Ports, 1 10/100/1000Mbps WAN Port, 1 USB 2.0 Ports; Protocols Supported: Supports IPv4 and IPv6; System Requirement: Microsoft Windows 98SE NT 2000 XP Vista, or Windows 7 Windows 8/8.1/10, MAC OS NetWare UNIX or Linux; Wireless Standards: IEEE 802.11ac/n/a 5GHz, IEEE 802.11b/g/n 2.4GH"
+}

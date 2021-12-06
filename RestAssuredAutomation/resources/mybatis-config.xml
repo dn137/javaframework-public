@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- Configurations for LPIS Database-->
+<configuration>
+  <settings>
+    <setting name="defaultStatementTimeout" value="40"/>
+  </settings>
+
+  <environments default="centest">
+
+    <environment id="centest">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/CENTEST.agriculture.gov.ie"/>
+        <property name="username" value="lpis_vector"/>
+        <property name="password" value="lpis_vector"/>
+      </dataSource>
+    </environment>
+
+    <environment id="dev">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/DEVC.agriculture.gov.ie"/>
+        <property name="username" value="EDMS_DATA"/>
+        <property name="password" value="EDMS_DATA"/>
+      </dataSource>
+    </environment>
+
+    <environment id="uat">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/UATC.agriculture.gov.ie"/>
+        <property name="username" value="EDMS_DATA"/>
+        <property name="password" value="EDMS_DATA"/>
+      </dataSource>
+    </environment>
+    
+    <!-- Connect on centest-->
+    <environment id="centest-connect">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/CENTEST.agriculture.gov.ie"/>
+        <property name="username" value="lpis_connect"/>
+        <property name="password" value="lpis_connect"/>
+      </dataSource>
+    </environment>
+    
+    <!-- Connect on dev-->
+    <environment id="dev-connect">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/DEVC.agriculture.gov.ie"/>
+        <property name="username" value="lpis_connect"/>
+        <property name="password" value="lpis_connect"/>
+      </dataSource>
+    </environment>
+    
+    <!-- Connect on uat-->
+    <environment id="uat-connect">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/UATC.agriculture.gov.ie"/>
+        <property name="username" value="lpis_connect"/>
+        <property name="password" value="lpis_connect"/>
+      </dataSource>
+    </environment>
+    
+    <!-- Metadata on centest-->
+    <environment id="centest-meta">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/CENTEST.agriculture.gov.ie"/>
+        <property name="username" value="lpis_metadata"/>
+        <property name="password" value="lpis_metadata"/>
+      </dataSource>
+   </environment>
+    
+    <!-- Metadata on dev-->
+    <environment id="dev-meta">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/DEVC.agriculture.gov.ie"/>
+        <property name="username" value="lpis_metadata"/>
+        <property name="password" value="lpis_metadata"/>
+      </dataSource>
+    </environment>
+    
+    <!-- Metadata on uat-->
+    <environment id="uat-meta">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/UATC.agriculture.gov.ie"/>
+        <property name="username" value="lpis_metadata"/>
+        <property name="password" value="lpis_metadata"/>
+      </dataSource>
+    </environment>
+
+   <!--IMAP_VECTOR on CENTEST-->
+    <environment id="centest-imap">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/CENTEST.agriculture.gov.ie"/>
+        <property name="username" value="imap_vector"/>
+        <property name="password" value="imap_vector"/>
+      </dataSource>
+    </environment>
+
+    <!-- IMAP_VECTOR on on dev-->
+    <environment id="dev-imap">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/DEVC.agriculture.gov.ie"/>
+        <property name="username" value="imap_vector"/>
+        <property name="password" value="imap_vector"/>
+      </dataSource>
+    </environment>
+    
+    <!-- IMAP_VECTOR on on uat-->
+    <environment id="uat-imap">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/UATC.agriculture.gov.ie"/>
+        <property name="username" value="imap_vector"/>
+        <property name="password" value="imap_vector"/>
+      </dataSource>
+    </environment>
+
+    <!--imap_scan-->
+    <environment id="imap_scan">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/npss.agriculture.gov.ie"/>
+        <property name="username" value="imap_scan_doc"/>
+        <property name="password" value="imap_scan_doc"/>
+      </dataSource>
+    </environment>
+    
+    <!--IFORIS DEVC-->
+    <environment id="dev-iforis">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/DEVC.agriculture.gov.ie"/>
+        <property name="username" value="IFOR_DATA"/>
+        <property name="password" value="IFOR_DATA"/>
+      </dataSource>
+    </environment>
+    
+    <!--IFORIS CENTEST-->
+    <environment id="centest-iforis">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/CENTEST.agriculture.gov.ie"/>
+        <property name="username" value="IFOR_DATA"/>
+        <property name="password" value="IFOR_DATA"/>
+      </dataSource>
+    </environment>
+
+    <!--IFORIS UAT-->
+    <environment id="uat-iforis">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver"   value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url"      value="jdbc:oracle:thin:@//sdbahpocm01-db.agriculture.gov.ie:1532/UATC.agriculture.gov.ie"/>
+        <property name="username" value="IFOR_DATA"/>
+        <property name="password" value="IFOR_DATA"/>
+      </dataSource>
+    </environment>
+
+  </environments>
+  <mappers>
+    <mapper resource="XmlMappers/TDED_SUSPECT_REPORTSMapper.xml"/>
+    <mapper resource="XmlMappers/TDED_SUSPECT_PREMISESMapper.xml"/>
+    <mapper resource="XmlMappers/TDED_VISITSMapper.xml"/>
+    <mapper resource="XmlMappers/USER_SEQUENCESMapper.xml"/>
+    <mapper resource="XmlMappers/TDED_CASE_HOLDING_RELATIONSMapper.xml"/>
+    <mapper resource="XmlMappers/TDED_HOLDINGSMapper.xml"/>
+  </mappers>
+</configuration>

@@ -1,0 +1,101 @@
+Request method:	GET
+Request URI:	https://simplekart.postman.com/items?list=20
+Proxy:			<none>
+Request params:	<none>
+Query params:	list=20
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 30 Nov 2021 09:35:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-srv-trace: v=1;t=2417b7b49f2d1fa3
+referrer-policy: no-referrer
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: default-src 'none'; font-src 'none'; img-src 'none'; script-src 'none'; base-uri 'self'; style-src 'none'
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+X-cached-value: true
+X-cache-created-at: 2021-11-30T09:34:05.988Z
+ETag: W/"12fa-z2OUs4QijJZAEGTVLlIc9nGJyKw"
+Content-Encoding: gzip
+
+[
+    {
+        "itemId": 1657,
+        "name": "Smart WiFi Router",
+        "price": 2096,
+        "description": "Wifi router/wireless router. One of routers for wireless internet, wireless routers for home. Dual band router and gigabit router. Ideal as internet router also gaming router. Long range coverage with high speed. Compatible with all 802.11ac devices and below. 5ghz router/5g router Frequency Range: 2.4GHz and 5GHz; Interface Available: 4 x 10/100/1000Mbps LAN Ports, 1 10/100/1000Mbps WAN Port, 1 USB 2.0 Ports; Protocols Supported: Supports IPv4 and IPv6; System Requirement: Microsoft Windows 98SE NT 2000 XP Vista, or Windows 7 Windows 8/8.1/10, MAC OS NetWare UNIX or Linux; Wireless Standards: IEEE 802.11ac/n/a 5GHz, IEEE 802.11b/g/n 2.4GH"
+    },
+    {
+        "itemId": 1658,
+        "name": "VR Gaming Headset",
+        "price": 79990,
+        "description": "VR Gaming Headset puts you at the center of virtual reality's most pulse-pounding, PC-powered gameplay. See the action unfold all around you through our sharpest lenses and next-generation optics. Lose yourself in the experience with a comfortable, improved design that lets you start playing faster and keep playing longer. Insight tracking gives you the power to move throughout your playspace in any direction. No external sensors. No complicated setup. Just hands-on action and interaction with our updated Oculus Touch controllers right out of the box. Step into the game and the future of PC VR."
+    },
+    {
+        "itemId": 1659,
+        "name": "Classic Loop Top Shaker Bottle, 20-Ounce",
+        "price": 578,
+        "description": "Easy to maintain proper nutrition and hydration on-the-go.The wide mouth makes it easy to add scoops of powdered mixes, meal ingredients, and liquids, and embossed markings show both ounces and milliliters for easy measuring anywhere (note that markings on the 20-ounce capacity shaker cup only go up to 12 ounces). Bottle contents and liquids are securely contained thanks to a tightly threaded screw-on lid that creates a leakproof seal, and a flip cap that snaps securely shut for shaking and transportation."
+    },
+    {
+        "itemId": 1660,
+        "name": "4-Port USB 2.0 Hub",
+        "price": 505,
+        "description": "Easily add up to 4 devices with the USB 2.0 Hub. Particularly great for recent notebooks that provide a limited number of USB ports. Achieve full 480 Mbps on each port, or daisy-chain multiple hubs to a maximum of 127 devices.Fully backwards compatible with the USB 1.1 products."
+    },
+    {
+        "itemId": 1661,
+        "name": "Wipes Flushable Wet Wipes Dispenser, Mint Chill, 48 Count (Pack of 3)",
+        "price": 938,
+        "description": "For a superior clean that’s fresh, gentle, and effective, choose Wipes with the CleaningRipples Texture. Wipes are 100 percent flushable, remove odor causing bacteria and offer a large, dual layer wipe to clean better than when using dry toilet paper alone."
+    },
+    {
+        "itemId": 1662,
+        "name": "Cordless Vacuum Cleaner",
+        "price": 41893,
+        "description": "Twice the suction of any cord-free vacuum. Cord-free cleaning, made easier. Intelligently optimizes suction and run time, to deep clean everywhere. With fade-free battery power and a battery-saving trigger. And real-time reporting on the LCD screen to give you control of your clean. The Dynamic Load Sensor (DLS) system automatically changes the motor speed between carpets and hard floors. For deep cleaning across floor types."
+    },
+    {
+        "itemId": 1663,
+        "name": "Hair Dryer",
+        "price": 1400,
+        "description": "Hair dryer is engineered to protect hair from extreme heat damage, with the fastest drying+ and controlled styling to help increase smoothness by 75%, increase shine by up to 132% and decrease frizz and flyaways by up to 61%."
+    },
+    {
+        "itemId": 1664,
+        "name": "Business Z27n G2 27 inch LED LCD Monitor",
+        "price": 24485,
+        "description": "Be a productive powerhouse with the sleek QHD HP Z27n G2 27-inch Display. This virtually seamless display is factory-tested for reliability and longevity with integrated color calibration, uninterrupted multi-screen tiling, and expansive device connections, including USB-C™. Multi-screen productivity with no disruptions Streamline multi-tasking on multiple displays with a 3-sided micro-edge bezel, and daisy chain up to 2 displays per workstation with DisplayPort™."
+    },
+    {
+        "itemId": 1665,
+        "name": "Smart Watch",
+        "price": 1805,
+        "description": "Built-in Multi-Sports Mode, record your Running, Cycling, Football, Swimming, Table Tennis, Badminton, Climbing, recording your daily sports data."
+    },
+    {
+        "itemId": 1666,
+        "name": "Learning Thermostat, 3rd Gen, Smart Thermostat",
+        "price": 15746,
+        "description": "Learning Thermostat is a smart thermostat that learns what temperatures you like, turns itself down when you’re away and connects to your phone. It has a big, sharp display. And it’s proven to help save energy. In independent studies, the Thermostat saved an average of 10% to 12% on heating bills and 15% on cooling bills."
+    },
+    {
+        "itemId": 16247,
+        "name": "Postman Merch",
+        "price": 15,
+        "description": "Official Merch for the Postman community."
+    }
+]

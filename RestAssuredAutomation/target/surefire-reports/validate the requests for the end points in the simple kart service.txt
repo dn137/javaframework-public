@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: validate the requests for the end points in the simple kart service
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 6.141 s - in validate the requests for the end points in the simple kart service

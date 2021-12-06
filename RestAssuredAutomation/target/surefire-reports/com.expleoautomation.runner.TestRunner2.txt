@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.expleoautomation.runner.TestRunner2
+-------------------------------------------------------------------------------
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 30, Time elapsed: 21.327 s - in com.expleoautomation.runner.TestRunner2

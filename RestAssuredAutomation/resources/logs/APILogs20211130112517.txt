@@ -1,0 +1,40 @@
+Request method:	POST
+Request URI:	https://edms-suspect-report-service-edms-uat.apps.rhos.agriculture.gov.ie/cases/caseID/suspect-report/caller-details
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reporterId": 1,
+    "reportedByOthers": "PVP",
+    "dafmNumber": "P020915",
+    "name": "Joe Bloggs",
+    "contactNumber": "0859819862",
+    "eircode": "D16 RY27",
+    "address": "12 Millennium Walkway,Dublin",
+    "reportMethodId": 1,
+    "versionNum": 0,
+    "lastUpdatedBy": "MAUREEN FITZGERALD",
+    "lastUpdatedDate": null
+}
+HTTP/1.1 401 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+WWW-Authenticate: Bearer
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Tue, 30 Nov 2021 11:25:18 GMT
+Set-Cookie: b2ccfb8b69f94829034532bd64c8160a=0a800524b4c4097b5b4f69191582adb1; path=/; HttpOnly; Secure; SameSite=None
